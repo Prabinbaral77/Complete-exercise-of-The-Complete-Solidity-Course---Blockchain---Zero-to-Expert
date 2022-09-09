@@ -62,7 +62,7 @@ contract RandomNumberGenerator {
 
     function randMod(uint range) external view returns(uint) {
         // grab information from the blockchain randomly to generate random numbers - we need something dynamically changing
-        // abi.encodePacked concatonates arguments nicely 
+        // abi.encodePacked concatenates arguments nicely 
         return uint(keccak256(abi.encodePacked(oracle.rand ,block.timestamp, block.difficulty, msg.sender))) % range;
     }
 }
