@@ -11,6 +11,9 @@ pragma solidity >=0.7.0 <0.9.0;
 
     // by the customer working directly to claim a refund with their contract address we eliminate the outside interference
     // BY MAKING OUR TANSACTIONS ONE AT A TIME we greatly reduce danger to our executions.  - withdrawal patterns
+
+    DApp:
+     DApp is a decentrilized application that runs on the blockchain or P2P Network and that is not controlled by any one single authority.
 */
 
 contract WIthdrawalPattern {
