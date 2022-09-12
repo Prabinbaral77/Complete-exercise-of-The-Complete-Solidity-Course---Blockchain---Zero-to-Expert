@@ -59,7 +59,7 @@ contract RestrictedAccess {
     }
 
     function transferBalance(address payable _address) public payable {
-        // _address.send(msg.value);
+        _address.send(msg.value);
     }
 
      /*
